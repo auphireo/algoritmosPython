@@ -1,5 +1,5 @@
 #funcion de fibonacci
-# Realizado por @leoperez.x
+# Realizado por @auphireo
 
 def fib(n): # escribe la funcion de fibonacci hasta (n)
     """ Escribe los "n" números de la seria de Fibonacci """
