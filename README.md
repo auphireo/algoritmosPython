@@ -4,6 +4,8 @@ Lo que hay aquí alojado son diferentes algoritmos en _python_ de interes y que 
 
 Antes de cualquier cosa unos pequeños comandos de _github_ que debo recordar:
 
+- `$ git config --global user.name` # Muestra el nombre del usuario asociado a la cuenta de Git
+- `$ git config --global user.email` # Muestra el email asociado a la cuenta de Git
 - `$ git remote show origin` # Muestra la rama remota (dirección web del repositorio).
 - `$ git log --pretty="%cn committed %h on %cs"` # Muestra los commits realizados (la respuesta tiene formato).
 - `$ git pull` # Extrae información de la rama (actualiza la rama).
