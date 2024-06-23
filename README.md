@@ -102,10 +102,14 @@ Además, también hay que tener una lista de unos cuantos comandos de _github_ q
 - `$ git config --global user.email` # Muestra el email asociado a la cuenta de Git
 - `$ git remote show origin` # Muestra la rama remota (dirección web del repositorio).
 - `$ git log --pretty="%cn committed %h on %cs"` # Muestra los commits realizados (la respuesta tiene formato).
+- `$ git add archivo` # Adiciona archivo al rastreo de git.
+- `$ git add *` # Adiciona todos los archivos al rastreo de git.
 - `$ git pull` # Extrae información de la rama (actualiza la rama).
 - `$ git branch nueva_rama` # Crear nueva rama.
 - `$ git checkout nueva_rama` # Cambiar de ramas.
 - `$ git checkout -b nueva_rama` # Crear rama nueva y cambiar al mismo tiempo.
+
+El archivo _.gitignore_ especifica archivos y directorios sin seguimiento intencional.
 
 El siguiente enlace tiene toda la información sobre la configuración de los repositorios remotos en github.
 [Info a repositorios remotos en Github](https://docs.github.com/es/get-started/getting-started-with-git/managing-remote-repositories)
