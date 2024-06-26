@@ -10,8 +10,7 @@ Lo que hay aquí alojado son diferentes algoritmos en _python_ de interes y que 
 
 Son algunos algoritmos con algunos ejemplos sencillos. La intención de code es recopilar muchos códigos que pueda utilizar como biblioteca o fuente de referencia.
 
-```
-
+```text
 codes/
 ├── bucle_while_01.py
 ├── bucle_while_02.py
@@ -26,8 +25,7 @@ codes/
 
 Para algunos algoritmos se requiere manipular archivos con extención tipo ".csv", "xlsx", "txt", ".jpg", entre otros. Estos archivos se irán sumando a esta carpeta.
 
-```
-
+```text
 add/
 └── colegios-medellin.xlsx
 
@@ -38,8 +36,7 @@ add/
 Información básica de Syntaxis en Python y empezamos con la asignación de una variable.
 Con un `=` se define una variable tanto numérica como una cadena (cadena de texto o string). Además, se puede agignar una lista, un diccionario entre otros tipos de estructura de datos.
 
-```
-
+```python
 x = "El resultado de (a+b)*c es: " # Esto es una variable.
 a, b ,c = 4, 3, 2 # Esto es una asignación de variables múltiples.
 d = (a + b) * c # Realizamos una operación y asginamod el resultado en otra variable.
@@ -50,8 +47,7 @@ print(x,d)
 Como se puede observar, todos los comentarios inician con el `#`. Todo lo que es un comentario no se ejecuta por Python.
 Otra forma de hacer comentarios es por medio del uso de comillas triples sencillas `'''` o dobles `"""`.
 
-```
-
+```python
 '''
 Esto es un bloque de 
 comentario escrito en 
@@ -62,8 +58,7 @@ varias lineas de código.
 
 Dentro de las infinitas posibilidades para darle un nombre a una variable, Python tiene una serie de palabras reservadas que no se pueden usar para asignar variables. Para conocer las palabras puedes ejecutar el siguinte comando.
 
-```
-
+```python
 import keyword
 print(keyword.kwlist)
 ['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
@@ -72,7 +67,7 @@ print(keyword.kwlist)
 
 ## Creación de entornos virtuales
 
-El paquete que manipula y administra los entornos virtuales en _Linux_ es **venv**. 
+El paquete que manipula y administra los entornos virtuales en _Linux_ es **venv**.
 Comando para crear un entorno virtual desde la terminal de Linux (Ubuntu)
 `$ python -m venv ruta/al/entorno/virtual`
 
