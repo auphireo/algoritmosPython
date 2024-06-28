@@ -1,8 +1,44 @@
 # Algoritmos Python
 
-**Última fecha de actualización: _12-junio-2024_**
+**Última fecha de actualización: _junio-2024_**
 
 Lo que hay aquí alojado son diferentes algoritmos en _python_ de interes y que seguramente se pueden aprovechar. A veces es dificil encontrar 'la función' que uno necesita o 'la alternativa' que se requiere. Espero ir acumulando varios códigos de Python, Bash y Github. 
+
+## El Zen de Python 
+
+Para conocer mejor el lenguaje que estaremos aprendiendo les compartimos una colección de los 19 principios que influyen en el diseño del lenguaje Python. De alguna manera, muestran la filosofía del mismo:
+
+1) Bello es mejor que feo.
+2) Explícito es mejor que implícito.
+3) Simple es mejor que complejo.
+4) Complejo es mejor que complicado.
+5) Plano es mejor que anidado.
+6) Espaciado es mejor que denso.
+7) La legibilidad es importante.
+8) Los casos especiales no son lo suficientemente especiales como para romper las reglas.
+9) Sin embargo la practicidad gana a la pureza.
+10) Los errores nunca deben pasar silenciosamente.
+11) A menos que se silencien explícitamente.
+12) Frente a la ambigüedad, evitar la tentación de adivinar.
+13) Debería haber una, y preferiblemente solo una, manera obvia de hacerlo.
+14) A pesar de que esa manera no sea obvia a menos que seas Holandés (el creador lo era)
+15) Ahora es mejor que nunca.
+16) A pesar de que nunca es muchas veces mejor que ahora mismo.
+17) Si la implementación es difícil de explicar, es una mala idea.
+18) Si la implementación es fácil de explicar, puede que sea una buena idea.
+19) Los namespaces son una gran idea, ¡tengamos más de esos!
+
+## Recursos adicionales
+
+* [Introducción al Pensamiento Computacional] (https://github.com/karlbehrensg/introduccion-pensamiento-computacional)
+* [Entrenamiento Básico] (https://entrenamiento-python-basico.readthedocs.io/es/latest)
+* [El Libro de Python] (https://ellibrodepython.com/)
+* [Python para todos] (https://www.py4e.com)
+* [Curso Python Videos] (https://youtu.be/G2FCfQj-9ig)
+* [Visualizar tu código] (https://memlayout.com/)
+* [Visualizar tu código] (https://pythontutor.com/visualize.html#mode=edit)
+
+
 
 ## Contenido de los directorios
 
@@ -12,12 +48,12 @@ Son algunos algoritmos con algunos ejemplos sencillos. La intención de code es 
 
 ```text
 codes/
+├── 01_tipos_de_datos.py
 ├── bucle_while_01.py
 ├── bucle_while_02.py
 ├── Excepciones.py
 ├── juego_triqui_v0.1.0.py
-├── mapa-colegios.py
-└── tipos_de_datos.py
+└── mapa-colegios.py
 
 ```
 
