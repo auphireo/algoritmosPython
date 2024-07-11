@@ -1,17 +1,20 @@
-name = "Mario"
-edad = "25"
+# Este pequeño código muestra las diferentes formas de usar 
+# el comando "print".
 
-print(name + ' : ' +edad)
-print(name, ':', edad)
-print(f'{name} : {edad}')
-print('%s : %s' % (name,edad))
-print('{} : {}'.format(name,edad))
+nombre1 = "Mario"
+edad1 = "25"
 
-name1 = "Julio"
-edad1 = "35"
+print(nombre1 + ' : ' +edad1)
+print(nombre1, ':', edad1)
+print(f'{nombre1} : {edad1}')
+print('%s : %s' % (nombre1,edad1))
+print('{} : {}'.format(nombre1,edad1))
 
-print('La edad de ' + name1 + ' es ' +edad1 + 'años.')
-print('La edad de', name1, 'es', edad1, 'años')
-print(f'La edad de {name1} es {edad1} años')
-print('La edad de %s es %s años' % (name1,edad1))
-print('La edad de {} es {} años'.format(name1,edad1))
+nombre2 = "Julio"
+edad2 = "35"
+
+print('La edad de ' + nombre2 + ' es ' +edad2 + ' años.')
+print('La edad de', nombre2, 'es', edad2, 'años.')
+print(f'La edad de {nombre2} es {edad2} años.')
+print('La edad de %s es %s años.' % (nombre2,edad2))
+print('La edad de {} es {} años.'.format(nombre2,edad2))
